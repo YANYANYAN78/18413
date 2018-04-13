@@ -12,3 +12,13 @@ for m in range(168):#凭感觉+268=一个不大于168平方的数
     for n in range(m):
         if m**2-n**2==168:
             print (m**2-268)
+
+
+
+t = []
+for m in range(168):
+    for n in range(m):
+        if m**2 - n**2 == 168:
+            x = n**2 - 100
+            t.append(x)
+print(t)
